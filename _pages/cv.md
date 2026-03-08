@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 
-* **Ph.D. in Economics**, Graduate School of International Cooperation Studies, Kobe University  
+* **Ph.D.**, Graduate School of International Cooperation Studies, Kobe University  
   *Expected: March 2026*
 
 * **M.A. in Economics**, Graduate School of International Cooperation Studies, Kobe University  
@@ -53,14 +53,6 @@ Professional Experience
 * **Intern (Online)**, UNICEF Headquarters, Statistics and Monitoring Section, New York  
   March 2022 – April 2022
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
@@ -80,6 +72,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
