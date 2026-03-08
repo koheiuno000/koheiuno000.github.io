@@ -6,6 +6,7 @@ permalink: /teaching/undergraduate-courses
 venue: "School of Economics, Kwansei Gakuin University"
 date: 2022-09-01
 location: "Japan"
+excerpt: ""
 ---
 
 ### Teaching Assistant

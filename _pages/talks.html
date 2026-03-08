@@ -11,6 +11,34 @@ author_profile: true
 
 {% endif %}
 
+## International Conference
+
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% if post.type == "International Conference" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+## National Conference
+
+{% for post in site.talks reversed %}
+  {% if post.type == "National Conference" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+## Invited Lecture
+
+{% for post in site.talks reversed %}
+  {% if post.type == "Invited Lecture" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+## Policy / Outreach Talk
+
+{% for post in site.talks reversed %}
+  {% if post.type == "Policy / Outreach Talk" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
 {% endfor %}

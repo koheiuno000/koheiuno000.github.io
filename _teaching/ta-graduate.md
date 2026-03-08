@@ -6,6 +6,7 @@ permalink: /teaching/graduate-courses
 venue: "Graduate School of International Cooperation Studies, Kobe University"
 date: 2023-01-01
 location: "Japan"
+excerpt: ""
 ---
 
 ### Teaching Assistant
