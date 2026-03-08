@@ -1,7 +1,6 @@
 ---
-title: "Graduate Courses"
+title: "Teaching Assistant (Graduate Courses)"
 collection: teaching
-type: "Teaching Assistant"
 permalink: /teaching/graduate-courses
 venue: "Graduate School of International Cooperation Studies, Kobe University"
 date: 2023-01-01

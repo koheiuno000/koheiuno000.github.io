@@ -1,7 +1,6 @@
 ---
-title: "Undergraduate Courses"
+title: "Teaching Assistant (Undergraduate Courses)"
 collection: teaching
-type: "Teaching Assistant"
 permalink: /teaching/undergraduate-courses
 venue: "School of Economics, Kwansei Gakuin University"
 date: 2022-09-01

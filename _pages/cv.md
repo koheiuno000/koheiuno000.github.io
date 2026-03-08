@@ -15,7 +15,7 @@ Education
 * **Ph.D.**, Graduate School of International Cooperation Studies, Kobe University  
   *Expected: March 2026*
 
-* **M.A. in Economics**, Graduate School of International Cooperation Studies, Kobe University  
+* **<Master of Economics**, Graduate School of International Cooperation Studies, Kobe University  
   March 2023
 
 * **Master of Public Administration**, School of International Relations and Public Affairs, Fudan University  
