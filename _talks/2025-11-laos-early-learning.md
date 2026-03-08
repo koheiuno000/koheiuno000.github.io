@@ -1,11 +1,9 @@
 ---
-title: "Talk 1 on Relevant Topic in Your Field"
+title: "Investing in Early Learning: Why It Matters for Development"
 collection: talks
-type: "Talk"
-permalink: /talks/2012-03-01-talk-1
-venue: "UC San Francisco, Department of Testing"
-date: 2012-03-01
-location: "San Francisco, CA, USA"
+type: "Guest Speaker"
+permalink: /talks/laos-early-learning
+venue: "National University of Laos"
+date: 2025-11-01
+location: "Online"
 ---
-
-This is a description of your talk, which is a markdown file that can be all markdown-ified like any other post. Yay markdown!
