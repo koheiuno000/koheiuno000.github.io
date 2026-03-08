@@ -5,40 +5,6 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-## International Conference
-
 {% for post in site.talks reversed %}
-  {% if post.type == "International Conference" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
-
-## National Conference
-
-{% for post in site.talks reversed %}
-  {% if post.type == "National Conference" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
-
-## Invited Lecture
-
-{% for post in site.talks reversed %}
-  {% if post.type == "Guest Speaker" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
-
-## Policy / Outreach Talk
-
-{% for post in site.talks reversed %}
-  {% if post.type == "Policy / Outreach Talk" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
+  {% include archive-single-talk.html %}
 {% endfor %}
