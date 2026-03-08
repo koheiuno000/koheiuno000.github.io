@@ -11,26 +11,47 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+* **Ph.D. in Economics**, Graduate School of International Cooperation Studies, Kobe University  
+  *Expected: March 2026*
+
+* **M.A. in Economics**, Graduate School of International Cooperation Studies, Kobe University  
+  March 2023
+
+* **Master of Public Administration**, School of International Relations and Public Affairs, Fudan University  
+  June 2022
+
+* **B.A. in Sports Sciences**, Waseda University  
+  March 2021
+
+* **Exchange Student**, West Virginia University, USA  
+  August 2018 – May 2019
+
+---
+
+Professional Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+### Consultant
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **Educational Consultant**, PADECO Co., Ltd., Educational Development Division, Japan  
+  April 2025 – Present
+
+* **Short-term Consultant**, UNESCO International Institute for Educational Planning (IIEP)  
+  November 2025 – January 2026
+
+---
+
+### Internships/ Traineeship
+
+* **Sponsored Traineeship**, UNESCO Headquarters, Section of Health and Education, France  
+  October 2024 – March 2025
+
+* **Intern**, UNESCO Asia and Pacific Regional Bureau for Education, Executive Office, Bangkok  
+  June 2022 – November 2022/ January 2023 – June 2023
+
+* **Intern (Online)**, UNICEF Headquarters, Statistics and Monitoring Section, New York  
+  March 2022 – April 2022
   
 Skills
 ======
