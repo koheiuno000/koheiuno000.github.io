@@ -10,7 +10,7 @@ author_profile: true
   {% assign type_order = "Instructor, Guest Lecture, Teaching Assistant" | split: ", " %}
 
   {% for type in type_order %}
-    {% assign filtered_teaching = site.teaching | where: "teaching_type", type %}
+    {% assign filtered_teaching = site.teaching | where: "teaching_type", type | sort: "date" | reverse %}
 
     {% if filtered_teaching.size > 0 %}
       <h2 class="archive__subtitle">{{ type }}</h2>
