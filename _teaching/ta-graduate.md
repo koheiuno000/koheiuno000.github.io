@@ -1,14 +1,13 @@
 ---
-title: "Teaching Assistant (Graduate Courses)"
+title: "Graduate Courses"
 collection: teaching
-permalink: /teaching/graduate-courses
-venue: "Graduate School of International Cooperation Studies, Kobe University"
+permalink: /teaching/graduate-ta
+teaching_type: "Teaching Assistant"
+venue: "Kobe University"
 date: 2023-01-01
 location: "Japan"
 excerpt: ""
 ---
-
-### Teaching Assistant
 
 **Special Lecture on Development Management**  
 Instructor: Dr. Scherezad Latif (World Bank)

@@ -1,14 +1,12 @@
 ---
-title: "Teaching Assistant (Undergraduate Courses)"
+title: "Undergraduate Courses"
 collection: teaching
-permalink: /teaching/undergraduate-courses
+permalink: /teaching/undergraduate-ta
+teaching_type: "Teaching Assistant"
 venue: "School of Economics, Kwansei Gakuin University"
 date: 2022-09-01
 location: "Japan"
-excerpt: ""
 ---
-
-### Teaching Assistant
 
 **Economic History of Foreign Countries I**  
 Instructor: Professor Keiichi Ogawa  

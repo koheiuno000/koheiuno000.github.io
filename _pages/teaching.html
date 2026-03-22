@@ -5,8 +5,38 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+{% if site.teaching %}
+  {% comment %} 表示したい優先順位を定義（Instructorを先頭にしておくと将来便利） {% endcomment %}
+  {% assign type_order = "Instructor, Guest Lecture, Teaching Assistant" | split: ", " %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+  {% for type in type_order %}
+    {% assign filtered_teaching = site.teaching | where: "teaching_type", type %}
+
+    {% if filtered_teaching.size > 0 %}
+      <h2 class="archive__subtitle">{{ type }}</h2>
+      
+      {% for post in filtered_teaching %}
+        <div class="list__item">
+          <article class="archive__item">
+            <h3 class="archive__item-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+            
+            <p class="page__meta" style="margin-top: -10px;">
+              {% if post.venue %} <strong>Institution:</strong> {{ post.venue }} {% endif %}
+              {% if post.location %} | {{ post.location }} {% endif %}
+              {% if post.date %} | {{ post.date | date: "%Y" }} {% endif %}
+            </p>
+
+            {% if post.excerpt %}
+              <p class="archive__item-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+            {% endif %}
+          </article>
+        </div>
+        <hr style="margin: 1em 0;">
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  <p>No teaching experience listed yet.</p>
+{% endif %}
