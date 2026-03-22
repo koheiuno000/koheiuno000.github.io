@@ -1,5 +1,5 @@
 ---
-title: "Analysis of Teaching and Learning Process in Bangladesh and Mongolia"
+title: "Grant-in-Aid for Scientific Research A: International Comparison Research Contributing to Improvement of Quality Education [achieving SDG4] in Developing Countries: Focusing on Teaching-Learning Process"
 layout: single          
 collection: projects
 permalink: /projects/teaching-learning
@@ -7,7 +7,7 @@ project_type: "Research-based"
 client: "JSPS (KEKENHI)"
 country: "Bangladesh, Mongolia, Uganda"
 duration: "2022/07-2024/04"
-date: 2022-07-01
+date: 2025-03-01
 ---
 
 ### Project Overview
@@ -27,6 +27,6 @@ This research aims to identify factors to improve quality education focusing on 
    * Drafted academic papers and developed presentation materials based on the analyzed data.
    * **International Conference Presentation:** Presented research findings from the Mongolian context at the **Comparative Education Society of Asia (CESA) 2023**.
 
-Financial Support by Grant-in-Aid for Scientific Research A: International Comparison Research Contributing to Improvement of Quality Education [achieving SDG4] in Developing Countries: Focusing on Teaching-Learning Process)
+##### Financial Support by Grant-in-Aid for Scientific Research A: International Comparison Research Contributing to Improvement of Quality Education [achieving SDG4] in Developing Countries: Focusing on Teaching-Learning Process)
 ---
 [Back to Projects](/projects/)
