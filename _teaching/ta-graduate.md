@@ -6,7 +6,6 @@ teaching_type: "Teaching Assistant"
 venue: "Kobe University"
 date: 2023-01-01
 location: "Japan"
-excerpt: ""
 ---
 
 **Special Lecture on Development Management**  
