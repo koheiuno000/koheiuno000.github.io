@@ -7,7 +7,7 @@ project_type: "Research-based"
 client: "UNESCO IIEP"
 country: "Malawi"
 duration: "2025/11-2026/03"
-date: 2026-03-15
+date: 2025-11-01
 ---
 
 ### Project Overview

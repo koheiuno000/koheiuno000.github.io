@@ -6,41 +6,48 @@ author_profile: true
 ---
 
 {% if site.projects %}
-  {% comment %} 
-    project_type (research-based等) でグループ分け 
-  {% endcomment %}
-  {% assign projects_grouped = site.projects | group_by: "project_type" %}
+  {% comment %} 1. 表示したい順番を定義します {% endcomment %}
+  {% assign type_order = "Research-based, Practice-based, Others" | split: ", " %}
 
-  {% for group in projects_grouped %}
-    <h2 class="archive__subtitle">{{ group.name | replace: "-", " " | capitalize }}</h2>
-    
-    {% for post in group.items %}
-      <div class="list__item">
-        <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-          <h3 class="archive__item-title" itemprop="headline">
-            <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-          </h3>
-          <p class="page__meta">
-            {% if post.client %}
-              <strong>Client:</strong> {{ post.client }} <br>
-            {% endif %}
-            {% if post.country %}
-              <strong>Country:</strong> {{ post.country }} <br>
-            {% endif %}
-            {% if post.duration %}
-              <strong>Period:</strong> {{ post.duration }}
-            {% elsif post.date %}
-              <strong>Date:</strong> {{ post.date | date: '%B %Y' }}
-            {% endif %}
-          </p>
-          <p class="archive__item-excerpt" itemprop="description">
-            {{ post.excerpt | strip_html | truncate: 160 }}
-          </p>
-        </article>
-      </div>
-      <hr style="margin: 1em 0;">
-    {% endfor %}
+  {% for type in type_order %}
+    {% comment %} 2. 現在のタイプ（Research-based等）に一致するプロジェクトだけを抽出 {% endcomment %}
+    {% assign filtered_projects = site.projects | where: "project_type", type %}
+
+    {% if filtered_projects.size > 0 %}
+      {% comment %} 3. 見出しを表示（ハイフンをスペースに変えて1文字目を大文字に） {% endcomment %}
+      <h2 class="archive__subtitle">{{ type | replace: "-", " " }}</h2>
+      
+      {% for post in filtered_projects %}
+        <div class="list__item">
+          <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+            <h3 class="archive__item-title" itemprop="headline">
+              <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+            </h3>
+            
+            <p class="page__meta">
+              {% if post.client %}
+                <strong>Client:</strong> {{ post.client }} <br>
+              {% endif %}
+              {% if post.country %}
+                <strong>Country:</strong> {{ post.country }} <br>
+              {% endif %}
+              {% if post.duration %}
+                <strong>Period:</strong> {{ post.duration }}
+              {% elsif post.date %}
+                <strong>Date:</strong> {{ post.date | date: '%B %Y' }}
+              {% endif %}
+            </p>
+
+            <p class="archive__item-excerpt" itemprop="description">
+              {{ post.excerpt | strip_html | truncate: 160 }}
+            </p>
+          </article>
+        </div>
+        <hr style="margin: 1em 0;">
+      {% endfor %}
+    {% endif %}
   {% endfor %}
+
 {% else %}
   <p>No projects found. Please check your <code>_projects</code> folder and Front Matter.</p>
 {% endif %}

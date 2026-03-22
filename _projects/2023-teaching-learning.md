@@ -7,7 +7,7 @@ project_type: "Research-based"
 client: "JSPS (KEKENHI)"
 country: "Bangladesh, Mongolia, Uganda"
 duration: "2022/07-2024/04"
-date: 2025-03-01
+date: 2022-07-01
 ---
 
 ### Project Overview
