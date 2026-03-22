@@ -13,15 +13,15 @@ Education
 ======
 
 * **Ph.D.**, Graduate School of International Cooperation Studies, Kobe University  
-  *Expected: March 2026*
+  March 2026
 
-* **<Master of Economics**, Graduate School of International Cooperation Studies, Kobe University  
+* **Master of Economics**, Graduate School of International Cooperation Studies, Kobe University  
   March 2023
 
 * **Master of Public Administration**, School of International Relations and Public Affairs, Fudan University  
   June 2022
 
-* **B.A. in Sports Sciences**, Waseda University  
+* **Bachelor of Artcs in Sports Sciences**, Waseda University  
   March 2021
 
 * **Exchange Student**, West Virginia University, USA  
@@ -38,7 +38,7 @@ Professional Experience
   April 2025 – Present
 
 * **Short-term Consultant**, UNESCO International Institute for Educational Planning (IIEP)  
-  November 2025 – January 2026
+  November 2025 – March 2026
 
 ---
 
@@ -60,7 +60,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Academic Presentations
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}

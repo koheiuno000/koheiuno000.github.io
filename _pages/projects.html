@@ -7,11 +7,11 @@ author_profile: true
 
 {% if site.projects %}
   {% comment %} 1. 表示したい順番を定義します {% endcomment %}
-  {% assign type_order = "Research-based, Practice-based, Others" | split: ", " %}
+  {% assign type_order = "Practice-based, Research-based, Others" | split: ", " %}
 
   {% for type in type_order %}
     {% comment %} 2. 現在のタイプ（Research-based等）に一致するプロジェクトだけを抽出 {% endcomment %}
-    {% assign filtered_projects = site.projects | where: "project_type", type %}
+    {% assign filtered_projects = site.projects | where: "project_type", type | sort: "date" | reverse %}
 
     {% if filtered_projects.size > 0 %}
       {% comment %} 3. 見出しを表示（ハイフンをスペースに変えて1文字目を大文字に） {% endcomment %}
