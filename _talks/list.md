@@ -1,9 +1,10 @@
 ---
 layout: archive
-collection: talks
 title: "Conference Presentation"
 permalink: /talks/list
+author_profile: true
 ---
+## Conference Presentations
 
 - **Uno, K.** (2026). “Heterogeneous Effects of Pre-primary Education on Child Development Outcomes in Bangladesh: Using Project Data and Causal Forest Analysis.” Comparative and International Education Society (CIES), Miami, USA, March 29, 2026.
 - **Uno, K.** (2026). “Heterogeneous Treatment Effect on Child Development Outcomes: Application of Machine Learning Approach to Early Year Preschool Program in Bangladesh.” The Asian Conference on Education & International Development (ACEID), March 27, 2026.
