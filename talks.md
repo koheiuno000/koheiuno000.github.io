@@ -15,7 +15,7 @@ author_profile: true
 * Uno, K. (2025). “Analysis of Early Childhood Education Attendance on Social and Emotional Skills: Evidence from the STEP Skills Measurement Program”, October 11st 2025
 * Uno, K. (2025).  “Heterogeneous Effects of Pre-primary Education on Early Literacy, Numeracy, Social-emotional, and Physical Development in Bangladesh”, June 21st 2025
 * Uno, K. (2025). “The Role of Early Childhood Education in School Readiness in 11 Sub-Saharan African Countries: Exploring the Interaction Effects with Socioeconomic Status and Home Learning Environment”, Paper presented at the 35th Japan Society for Africa Educational Research, April 20th 2025.
-* 
+
 **2024**
 * Uno, K. (2024). “The Impact of Pre-primary School Attendance on Early Cognitive and Non-Cognitive Skill Development in Bangladesh: Advancing Equity Through Unlocking Its Potential”,  Paper presented at the 60th Conference of Japan Comparative Education Society, June　28th 2024.
 * Uno, K. (2024). “Heterogeneous Effect of Pre-primary School Attendance on Child Development in Bangladesh”,  Poster presented at the 25th Conference of Japan Society for International Development, June 15th 2024.
@@ -31,7 +31,7 @@ author_profile: true
 * Uno, K. (2023). “Analysis of Preschool Attendance on Child Development Outcomes in Rural Bangladesh”, Paper presented at the Japan Comparative Education Society The 59th Annual Conference, June 17th 2023.
 * Uno, K. (2023). “Exploring Teacher’s Perception of Play-Based Learning in ECE: A Case Study of Bangladesh”, Poster presented at the 24th JASID Spring Conference, June 10th 2023.
 * Uno, K. (2023). “Learning Disparities by Household Wealth in Uganda Primary Schools: Catalytical Role of Distance Learning During Covid-19”, Paper presented at the the 31st Conference of Japan Society for Africa Educational Research, April 8th 2023.
-* 
+  
 **2022**
 * Uno, K. (2022). “Analysis of Access to Pre-primary Education in Bangladesh from Demand-side Perspective”, Poster presented at the 33rd JASID Annual Conference, November 25th 2022.
 * Uno, K. (2022). “Analysis of Learning Poverty on Primary School Children in Uganda: Case of the COVID-19 Pandemic”, Paper presented at the International Development Forum (IEDF) 2022, Online, October 31st 2022.
