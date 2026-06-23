@@ -236,6 +236,10 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  collections:
+  awards:
+    output: true
+    permalink: /awards/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -303,7 +307,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-    # _awards
+  # _awards
   - scope:
       path: ""
       type: awards
