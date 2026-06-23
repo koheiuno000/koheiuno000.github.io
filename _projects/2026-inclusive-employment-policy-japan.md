@@ -2,7 +2,7 @@
 title: "Roadmap to Inclusion: Building Frameworks to Advance Employment Equity for Persons with Disabilities in Canada and G7 Countries"
 layout: single          
 collection: projects
-permalink: /projects/inclusive-employment
+permalink: /projects/inclusive-employment/
 project_type: "Research-based"
 client: "CCRW"
 country: "Japan"
