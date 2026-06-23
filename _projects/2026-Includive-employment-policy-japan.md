@@ -4,10 +4,10 @@ layout: single
 collection: projects
 permalink: /projects/inclusive-employment
 project_type: "Research-based"
-client: ""
-country: "Laos"
-duration: "2026/04-Present"
-date: 2026-03-01
+client: "CCRW"
+country: "Japan"
+duration: "2026/04-2026/06"
+date: 2026-06-15
 ---
 
 - Conducted a comprehensive review of Japan’s disability-inclusive employment policies, legal frameworks, and institutional arrangements (Policy and institutional analysis).
