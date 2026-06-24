@@ -8,7 +8,7 @@ venue: "In Social and Emotional Learning: Education for the Future through SEL a
 paperurl: "https://www.toshindo-pub.com/book/092020/"
 ---
 
-*** 詳細
+
 タイトル: 社会性と情動の学習：SEL と非認知スキルで未来を拓く教育
 担当範囲: 第2章　社会情動的スキルと社会的成果
 分担執筆：宮本晃司, 宇野耕平
@@ -16,7 +16,6 @@ paperurl: "https://www.toshindo-pub.com/book/092020/"
 出版年：2026年3月
 ISBN：9784798920207
 
-*** Details
 Title: Social and Emotional Learning: Education for the Future through SEL and Non-Cognitive Skills
 Area of responsibility: Chapter 2 Social and Emotional Skills and Social Outcomes
 Co-authors: Koji Myamoto, Kohei Uno
