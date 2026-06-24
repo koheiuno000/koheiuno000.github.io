@@ -85,9 +85,9 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   manuscripts:
-    title: 'Journal Articles'
+    title: 'Journal Article'
   books:
-    title: 'Books'
+    title: 'Book Chapter'
   conferences:
     title: 'Conference Papers'
 
@@ -236,7 +236,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  collections:
   awards:
     output: true
     permalink: /awards/:path/
